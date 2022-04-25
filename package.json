@@ -1,0 +1,39 @@
+{
+  "name": "sgr",
+  "version": "1.0.0",
+  "description": "A project for a WoW guild",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "build:dev": "webpack --mode=development",
+    "lint": "eslint \"**/*.{js,jsx}\" -f table",
+    "start": "webpack serve --mode=development",
+    "test": "jest --coverage",
+    "test:coverage": "jest --coverage --colors",
+    "test:watch": "npm run test -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jennikate/sgr.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jennikate/sgr/issues"
+  },
+  "homepage": "https://github.com/jennikate/sgr#readme",
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.5",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1"
+  }
+}

@@ -1,0 +1,8 @@
+# OS, ENV variables, IDE
+.DS_STORE
+.vscode
+# Directories
+build/
+coverage/
+dist/
+node_modules/
