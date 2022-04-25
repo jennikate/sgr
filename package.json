@@ -22,6 +22,9 @@
     "url": "https://github.com/jennikate/sgr/issues"
   },
   "homepage": "https://github.com/jennikate/sgr#readme",
+  "engines": {
+    "node": "16.13"
+  },
   "dependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
